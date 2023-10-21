@@ -1,0 +1,34 @@
+body {
+    background-image: url(../image/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+}
+.logo{
+    border-radius: 50%;
+    width: 50px;
+    float: right;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(252, 248, 248);
+   border-radius: 20px;
+  }
+  .navbar-nav .nav-link:hover{
+    color:green;
+    background-color:wheat;
+    border-radius: 0px 20px 20px 0px;
+    transition: 0.8s;
+    box-shadow: 0px 00px 20px greenyellow;
+  }
+.bi-list{
+    color: white;
+    font-size: 24px;
+}
+.dropdown-menu{
+   background-image: linear-gradient(120deg,rgb(59, 59, 59),white,rgb(64, 63, 63));
+}
+
